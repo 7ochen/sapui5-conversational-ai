@@ -1,0 +1,10 @@
+<mvc:View controllerName="test.cai_integration.controller.cai" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="CAI View">
+				<content><Button text="Go to next view" press="onPress"/></content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
