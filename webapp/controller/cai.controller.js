@@ -19,8 +19,8 @@ sap.ui.define([
 				var s = document.createElement("script");
 				s.setAttribute("src", "https://cdn.recast.ai/webchat/webchat.js");
 				s.setAttribute("id", "recast-webchat");
-				s.setAttribute("token", "1535e2e72ac4aa5c9831337b439d5bcf");
-				s.setAttribute("channelId", "170e9ea4-92e2-46ce-bf37-01b3b6f7147a");
+				s.setAttribute("token", "<your token>");
+				s.setAttribute("channelId", "<your channel id>");
 				document.body.appendChild(s);
 			}
 		}

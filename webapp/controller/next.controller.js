@@ -6,7 +6,6 @@ sap.ui.define([
 
 	return Controller.extend("test.cai_integration.controller.next", {
 		onInit: function () {
-
 			//delete conversational AI
 			var s = document.getElementById("recast-webchat-div");
 			console.log("recast-webchat-div:",s);
